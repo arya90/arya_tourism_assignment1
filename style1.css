@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-black{
+  background-color: black;
+}
+.myMargin{
+  margin: 25px;
+}
+.infoMargin{
+  color: azure;
+  font-style: italic;
+  
+}
+.bg-white{
+  background-image: url(http://static.businessworld.in/article/article_extra_large_image/1599647497_By4hFe_Kerala.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-Login {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 50px;
+  background-color:wheat ;
+  
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+.bg-sign{
+  background-image: url(https://www.keralatourism.holiday/blog/wp-content/uploads/2019/01/kerala-cover-1-1024x512.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card{
+  margin: 40px;
+}
+
+.card-text{
+  font-style: italic;
+}

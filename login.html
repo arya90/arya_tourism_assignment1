@@ -25,7 +25,7 @@
             <a class="nav-link text-uppercase text-white font-weight-bold" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-uppercase text-white font-weight-bold " href="places.html">States</a>
+            <a class="nav-link text-uppercase text-white font-weight-bold " href="places.html">Districts</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link text-uppercase text-white font-weight-bold " href="#">Login</a>
@@ -37,20 +37,22 @@
     </nav>
     <div class="row">
     <div class="col-lg-4 usMargin"></div>
-    <form class="form-Login">
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <form class="form-Login" action="Landing.html" onmouseout="return validate()" onsubmit="return validate()">
+      <div class="log-in">
+      <h3 style="color:blue"> Login</h3>
       </div>
       <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+        <label for="email1">Email address</label>
+        <input type="email" class="form-control" id="email2" aria-describedby="emailHelp">
+        <span id=email1 class="text-danger"></span>
+       
       </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+      <div class="form-group">
+        <label for="password1">Password</label>
+        <input type="password" class="form-control" id="password1">
+        <span id=pass class="text-danger"></span>
       </div>
+      
       <button type="submit" class="btn btn-lg btn-primary btn-block">Login</button>
       <div>
         <a style="color: blueviolet;" href="#">Forgot Password?</a>
@@ -58,6 +60,7 @@
     </form>
     </div>
     </div>
+    <script src="form2.js"></script>   
     
        
     

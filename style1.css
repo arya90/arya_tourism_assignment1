@@ -9,7 +9,7 @@
   margin: 25px;
 }
 .infoMargin{
-  color: azure;
+  color:white;
   font-style: italic;
   
 }
@@ -20,16 +20,18 @@
 }
 
 .form-Login {
-  max-width: 380px;
-  padding: 15px 35px 45px;
-  margin: 50px;
+  max-width: 300px;
+  padding: 10px 40px 45px;
+  margin: 15px;
   background-color:wheat ;
+  
   
   border: 1px solid rgba(0,0,0,0.1);  
 }
+
 .bg-sign{
   background-image: url(https://www.keralatourism.holiday/blog/wp-content/uploads/2019/01/kerala-cover-1-1024x512.jpg);
-  background-size: cover;
+  background-size:cover ;
   background-repeat: no-repeat;
 }
 .card{
@@ -39,3 +41,22 @@
 .card-text{
   font-style: italic;
 }
+.for-hi{
+  font-style: italic;
+  color: white;
+  text-align:center;
+  margin-top: 50px;
+
+
+
+}
+.para-t{
+ 
+  margin: 25px;
+  align-content: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align:justify;
+}
+
+
+
